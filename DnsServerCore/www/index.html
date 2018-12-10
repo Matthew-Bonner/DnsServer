@@ -131,6 +131,12 @@
                                                 <div class="title">Total Queries</div>
                                             </div>
 
+                                            <div class="stats-item cache-hit">
+                                                <div class="number" id="divDashboardStatsTotalCacheHit">10</div>
+                                                <div class="percentage" id="divDashboardStatsTotalCacheHitPercentage">0%</div>
+                                                <div class="title">Cache Hit</div>
+                                            </div>
+
                                             <div class="stats-item no-error">
                                                 <div class="number" id="divDashboardStatsTotalNoError">70</div>
                                                 <div class="percentage" id="divDashboardStatsTotalNoErrorPercentage">0%</div>
@@ -818,7 +824,7 @@
                                                             <option value="none">None</option>
                                                             <option value="default">Default</option>
 
-                                                            <option value="http://localhost:5380/blocklist.txt">Custom Local Block List (http://localhost:5380/blocklist.txt)</option>
+                                                            <option id="optCustomLocalBlockList" value="http://localhost:5380/blocklist.txt">Custom Local Block List (http://localhost:5380/blocklist.txt)</option>
 
                                                             <option value="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts">Steven Black [adware + malware] (https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts)</option>
                                                             <option value="https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts">Steven Black [adware + malware + fakenews] (https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts)</option>
